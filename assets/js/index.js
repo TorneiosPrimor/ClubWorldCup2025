@@ -334,7 +334,7 @@ function exibirTabelaDeCartoes() {
     `).join('');
 
     document.getElementById('tabelaCartoes').innerHTML = `
-        <h2 class="artilharia"><strong>Ranking de Cartões</strong></h2>
+        <h2 class="artilharia"><strong>Cartões</strong></h2>
         <table>
             <thead>
                 <tr>
