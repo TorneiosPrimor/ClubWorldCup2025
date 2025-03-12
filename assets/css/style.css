@@ -14,7 +14,7 @@
     --color-12: #c09375;
     
     /* .5rem = 8px | 1rem = 16px */
-    --font-0: 'EA-Sports', Times, serif;
+    --font-0: 'EA-Sports', sans-serif;
     --font-1: 'Poppins', sans-serif;
     --font-2: 'Times New Roman', Times, serif;
     --biggest-font-size: 3rem;
@@ -95,7 +95,6 @@ body {
     position: relative;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 
 
 .background{
@@ -187,12 +186,7 @@ header, main, footer{
     margin-bottom: -1rem;
     height: 12rem;
 }
-.logoPrimor{
-    width: auto;
-    max-width: 6.5rem;
-    border-radius: .5rem;
-}
-.logoClarito{
+.logoHeader{
     width: auto;
     max-width: 6.5rem;
 }
@@ -319,7 +313,7 @@ h2 {
     filter: drop-shadow(0 0 .5rem rgb(80, 61, 33, .25));
     background: radial-gradient(rgb(0,0,0,0), rgb(0,0,0,0), rgb(80, 61, 33,.1));
     border-radius: .5rem;
-    padding: 2.5rem .1rem 2.5rem .1rem;
+    padding: 2rem .1rem 2.5rem .1rem;
 }
 .classificacao td:first-child {
     font-weight: bold;
@@ -340,7 +334,7 @@ h2 {
 
 
 /* ARTILHARIA */
-#tabelaArtilharia{
+#tabelaArtilharia, #tabelaCartoes{
     border: 1px solid var(--color-4);
     box-shadow: 0 0 1rem rgb(80, 61, 33, .25);
     filter: drop-shadow(0 0 .5rem rgb(80, 61, 33, .25));
@@ -363,12 +357,40 @@ h2 {
 }
 
 
+.cartao{
+    display: inline-block;
+    height: 1rem;
+    width: 0.75rem;
+    border-radius: .1rem;
+}
 /* RODAPÉ */
 
 .footer{
+    background: none;
+    font-size: var(--small-font-size);
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 0 3rem 0;
+}
+.redeSocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+.cardsRedeSocial{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    white-space: nowrap;
+}
+.cardsRedeSocial img{
+    height: 1rem;
+    width: auto;
 }
 .btnDownload{
     display: flex;
