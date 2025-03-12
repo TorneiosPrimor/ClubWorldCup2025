@@ -209,13 +209,13 @@ function exibirEliminatorias() {
             <td></td>
         </tr>
         <tr class="fontSmall resultado">
-            <td class="imgLeft"><img style="border: .65px solid var(--color-4); background: var(--color-4); border-radius: 3px" src="/CLUB WORLD CUP Primor das Torres/assets/images/${jogo.time1}.png" alt=""></td>
+            <td class="imgLeft"><img style="border: .65px solid var(--color-4); background: var(--color-4); border-radius: 3px" src="assets/images/${jogo.time1}.png" alt=""></td>
             <td>${jogo.time1}</td>
             <td>${jogo.gols1 || ''}</td>
             <td>x</td>
             <td>${jogo.gols2 || ''}</td>
             <td>${jogo.time2}</td>
-            <td class="imgRight"><img style="border: .65px solid var(--color-4); background: var(--color-4); border-radius: 3px" src="/CLUB WORLD CUP Primor das Torres/assets/images/${jogo.time2}.png" alt=""></td>
+            <td class="imgRight"><img style="border: .65px solid var(--color-4); background: var(--color-4); border-radius: 3px" src="assets/images/${jogo.time2}.png" alt=""></td>
         </tr>
         <tr>
             <td></td>
