@@ -144,7 +144,7 @@ function exibirTabelaDeJogos() {
     const tabelaHTML = resultados.map((jogo, index) => `
         <tr class="dataHora">
             <td></td>
-            <td class="imgDataHora"><img src="../CLUB WORLD CUP Primor das Torres/assets/icons/Calendar.svg" alt=""></img>${jogo.data} <strong>|</strong> ${jogo.dia}</td>
+            <td class="imgDataHora"><img src="assets/icons/Calendar.svg" alt=""></img>${jogo.data} <strong>|</strong> ${jogo.dia}</td>
             <td></td>
             <td class="losango">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -152,17 +152,17 @@ function exibirTabelaDeJogos() {
                 </svg>
             </td>
             <td></td>
-            <td class="imgDataHora"><img src="../CLUB WORLD CUP Primor das Torres/assets/icons/Clock.svg" alt=""></img>${jogo.hora}</td>
+            <td class="imgDataHora"><img src="assets/icons/Clock.svg" alt=""></img>${jogo.hora}</td>
             <td></td>
         </tr>
         <tr class="resultado">
-            <td class="imgLeft"><img src="/CLUB WORLD CUP Primor das Torres/assets/images/${jogo.time1}.png" alt=""></td>
+            <td class="imgLeft"><img src="assets/images/${jogo.time1}.png" alt=""></td>
             <td>${jogo.time1}</td>
             <td>${jogo.gols1 || ''}</td>
             <td>x</td>
             <td>${jogo.gols2 || ''}</td>
             <td>${jogo.time2}</td>
-            <td class="imgRight"><img src="/CLUB WORLD CUP Primor das Torres/assets/images/${jogo.time2}.png" alt=""></td>
+            <td class="imgRight"><img src="assets/images/${jogo.time2}.png" alt=""></td>
         </tr>
         <tr>
             <td></td>
@@ -197,7 +197,7 @@ function exibirEliminatorias() {
         </tr>
         <tr class="textFinais2">
             <td></td>
-            <td class="imgDataHora"><img src="../CLUB WORLD CUP Primor das Torres/assets/icons/Calendar.svg" alt=""></img>${jogo.data} <strong>|</strong> ${jogo.dia}</td>
+            <td class="imgDataHora"><img src="assets/icons/Calendar.svg" alt=""></img>${jogo.data} <strong>|</strong> ${jogo.dia}</td>
             <td></td>
             <td class="losango">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -205,7 +205,7 @@ function exibirEliminatorias() {
                 </svg>
             </td>
             <td></td>
-            <td class="imgDataHora"><img src="../CLUB WORLD CUP Primor das Torres/assets/icons/Clock.svg" alt=""></img>${jogo.hora}</td>
+            <td class="imgDataHora"><img src="assets/icons/Clock.svg" alt=""></img>${jogo.hora}</td>
             <td></td>
         </tr>
         <tr class="fontSmall resultado">
