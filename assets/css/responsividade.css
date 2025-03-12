@@ -24,10 +24,7 @@ Extra     extra large	xxl	≥1400px
 }
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .logoPrimor{
-        max-width: 5.5rem;
-    }
-    .logoClarito{
+    .logoHeader{
         width: auto;
         max-width: 5.5rem;
     }
@@ -36,10 +33,16 @@ Extra     extra large	xxl	≥1400px
         max-width: 6rem;
     }
 }
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 714.98px){
+    .main{
+        gap: 2rem;
+    }
+    #tabelaArtilharia, #tabelaCartoes{
+        min-width: 24.225rem;
+    }
 }
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {}
