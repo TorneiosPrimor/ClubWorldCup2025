@@ -32,8 +32,12 @@ const resultados = [
     { data: '17/05', dia: 'Sáb', hora: '18:00', time1: 'Auckland City', gols1: '', artilheiros1: [], time2: 'Al Ahly', gols2: '', artilheiros2: [] },
 ];
 
+const cartoes = [
+    { jogador: "Primor das Torres", time: "1º Colocado", amarelos: 2, vermelhos: 1 }
+];
+
 const eliminatorias = [
-    { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '19:00', time1: '1º Colocado', gols1: '', artilheiros1: [], time2: '4º Colocado', gols2: '', artilheiros2: [] },
+    { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '19:00', time1: '1º Colocado', gols1: '', artilheiros1: ['Primor das Torres'], time2: '4º Colocado', gols2: '', artilheiros2: [] },
     { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '20:00', time1: '2º Colocado', gols1: '', artilheiros1: [], time2: '3º Colocado', gols2: '', artilheiros2: [] },
 
     { fase: 'Semifinal', data: '24/05', dia: 'Sáb', hora: '17:00', time1: 'Perdedor SF', gols1: '', artilheiros1: [], time2: 'Perdedor SF', gols2: '', artilheiros2: [] },
@@ -156,13 +160,13 @@ function exibirTabelaDeJogos() {
             <td></td>
         </tr>
         <tr class="resultado">
-            <td class="imgLeft"><img src="assets/images/${jogo.time1}.png" alt=""></td>
+            <td class="imgLeft"><img src="/CLUB WORLD CUP Primor das Torres/assets/images/${jogo.time1}.png" alt=""></td>
             <td>${jogo.time1}</td>
             <td>${jogo.gols1 || ''}</td>
             <td>x</td>
             <td>${jogo.gols2 || ''}</td>
             <td>${jogo.time2}</td>
-            <td class="imgRight"><img src="assets/images/${jogo.time2}.png" alt=""></td>
+            <td class="imgRight"><img src="/CLUB WORLD CUP Primor das Torres/assets/images/${jogo.time2}.png" alt=""></td>
         </tr>
         <tr>
             <td></td>
@@ -209,13 +213,13 @@ function exibirEliminatorias() {
             <td></td>
         </tr>
         <tr class="fontSmall resultado">
-            <td class="imgLeft"><img style="border: .65px solid var(--color-4); background: var(--color-4); border-radius: 3px" src="assets/images/${jogo.time1}.png" alt=""></td>
+            <td class="imgLeft"><img style="border: .65px solid var(--color-4); background: var(--color-4); border-radius: 3px" src="/CLUB WORLD CUP Primor das Torres/assets/images/${jogo.time1}.png" alt=""></td>
             <td>${jogo.time1}</td>
             <td>${jogo.gols1 || ''}</td>
             <td>x</td>
             <td>${jogo.gols2 || ''}</td>
             <td>${jogo.time2}</td>
-            <td class="imgRight"><img style="border: .65px solid var(--color-4); background: var(--color-4); border-radius: 3px" src="assets/images/${jogo.time2}.png" alt=""></td>
+            <td class="imgRight"><img style="border: .65px solid var(--color-4); background: var(--color-4); border-radius: 3px" src="/CLUB WORLD CUP Primor das Torres/assets/images/${jogo.time2}.png" alt=""></td>
         </tr>
         <tr>
             <td></td>
@@ -310,12 +314,51 @@ function exibirTabelaDeArtilharia() {
     `;
 }
 
+function exibirTabelaDeCartoes() {
+    // Ordenar conforme a prioridade: mais cartões > mais vermelhos > mais amarelos
+    cartoes.sort((a, b) =>
+        (b.vermelhos + b.amarelos) - (a.vermelhos + a.amarelos) || 
+        b.vermelhos - a.vermelhos || 
+        b.amarelos - a.amarelos
+    );
+
+    // Construir HTML da tabela
+    const tabelaHTML = cartoes.map((jogador, index) => `
+        <tr class="tableArtilharia">
+            <td>${index + 1}</td>
+            <td class="imgArtilharia"><img src="assets/images/${jogador.time}.png" alt=""></td>
+            <td class="nomeArtilharia">${jogador.jogador}</td>
+            <td>${jogador.amarelos}</td>
+            <td>${jogador.vermelhos}</td>
+        </tr>
+    `).join('');
+
+    document.getElementById('tabelaCartoes').innerHTML = `
+        <h2 class="artilharia"><strong>Ranking de Cartões</strong></h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th></th>
+                    <th>Jogador</th>
+                    <th><div style="background: yellow;" class="cartao"></div></th>
+                    <th><div style="background: red;" class="cartao"></div></th>
+                </tr>
+            </thead>
+            <tbody>
+                ${tabelaHTML}
+            </tbody>
+        </table>
+    `;
+}
+
 // Inicializa as tabelas ao carregar a página
 function atualizarTabelas() {
     exibirTabelaDeJogos();
     exibirEliminatorias();
     exibirTabelaDeClassificacao();
     exibirTabelaDeArtilharia();
+    exibirTabelaDeCartoes();
 }
 
 // Inicializa as tabelas ao carregar a página
