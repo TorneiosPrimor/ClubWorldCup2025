@@ -40,7 +40,7 @@ const eliminatorias = [
     { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '19:00', time1: '1º Colocado', gols1: '', artilheiros1: ['Primor das Torres'], time2: '4º Colocado', gols2: '', artilheiros2: [] },
     { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '20:00', time1: '2º Colocado', gols1: '', artilheiros1: [], time2: '3º Colocado', gols2: '', artilheiros2: [] },
 
-    { fase: 'Semifinal', data: '24/05', dia: 'Sáb', hora: '17:00', time1: 'Perdedor SF', gols1: '', artilheiros1: [], time2: 'Perdedor SF', gols2: '', artilheiros2: [] },
+    { fase: 'Disputa 3º Lugar', data: '24/05', dia: 'Sáb', hora: '17:00', time1: 'Perdedor SF', gols1: '', artilheiros1: [], time2: 'Perdedor SF', gols2: '', artilheiros2: [] },
 
     { fase: 'Final', data: '24/05', dia: 'Sáb', hora: '18:00', time1: 'Vencedor SF', gols1: '', artilheiros1: [], time2: 'Vencedor SF', gols2: '', artilheiros2: [] }
 ];
