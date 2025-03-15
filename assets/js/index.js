@@ -33,7 +33,7 @@ const resultados = [
 ];
 
 const cartoes = [
-    { jogador: "Mario", time: "Al Ahly", amarelos: 1, vermelhos: 1 }
+    { jogador: "Mario", time: "Al Ahly", amarelos: 1, vermelhos: 0 }
 ];
 
 const eliminatorias = [
