@@ -1,7 +1,7 @@
 const times = ['Inter Miami', 'Benfica', 'Porto', 'Al Ahly', 'Auckland City'];
 
 const resultados = [
-    { data: '14/03', dia: 'Sex', hora: '19:00', time1: 'Porto', gols1: '', artilheiros1: [], time2: 'Al Ahly', gols2: '', artilheiros2: [] },
+    { data: '14/03', dia: 'Sex', hora: '19:00', time1: 'Porto', gols1: '1', artilheiros1: ['Ceará'], time2: 'Al Ahly', gols2: '9', artilheiros2: ['Macarrão', 'Macarrão', 'Macarrão', 'Elienderson', 'Poke', 'Xandão', 'Alex', 'Burguês', 'Burguês'] },
     { data: '15/03', dia: 'Sáb', hora: '17:00', time1: 'Inter Miami', gols1: '', artilheiros1: [], time2: 'Benfica', gols2: '', artilheiros2: [] },
 
     { data: '19/03', dia: 'Qua', hora: '19:00', time1: 'Inter Miami', gols1: '', artilheiros1: [], time2: 'Porto', gols2: '', artilheiros2: [] },
@@ -33,11 +33,11 @@ const resultados = [
 ];
 
 const cartoes = [
-    { jogador: "Primor das Torres", time: "1º Colocado", amarelos: 2, vermelhos: 1 }
+    { jogador: "Mario", time: "Al Ahly", amarelos: 1, vermelhos: 1 }
 ];
 
 const eliminatorias = [
-    { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '19:00', time1: '1º Colocado', gols1: '', artilheiros1: ['Primor das Torres'], time2: '4º Colocado', gols2: '', artilheiros2: [] },
+    { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '19:00', time1: '1º Colocado', gols1: '', artilheiros1: [], time2: '4º Colocado', gols2: '', artilheiros2: [] },
     { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '20:00', time1: '2º Colocado', gols1: '', artilheiros1: [], time2: '3º Colocado', gols2: '', artilheiros2: [] },
 
     { fase: 'Disputa 3º Lugar', data: '24/05', dia: 'Sáb', hora: '17:00', time1: 'Perdedor SF', gols1: '', artilheiros1: [], time2: 'Perdedor SF', gols2: '', artilheiros2: [] },
