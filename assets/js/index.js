@@ -7,8 +7,8 @@ const resultados = [
     { data: '19/03', dia: 'Qua', hora: '19:00', time1: 'Inter Miami', gols1: '6', artilheiros1: ['João Marcos', 'João Marcos', 'Ewerton', 'Jean', 'João Miguel', 'João Miguel'], time2: 'Porto', gols2: '1', artilheiros2: ['Ceará'] },
     { data: '21/03', dia: 'Sex', hora: '19:00', time1: 'Benfica', gols1: '3', artilheiros1: ['Bruno', 'Helton', 'Bruno'], time2: 'Auckland City', gols2: '2', artilheiros2: ['Pedro', 'Pedro'] },
 
-    { data: '29/03', dia: 'Sáb', hora: '17:00', time1: 'Inter Miami', gols1: '1', artilheiros1: [], time2: 'Auckland City', gols2: '2', artilheiros2: [] },
-    { data: '29/03', dia: 'Sáb', hora: '18:00', time1: 'Benfica', gols1: '3', artilheiros1: [], time2: 'Al Ahly', gols2: '2', artilheiros2: [] },
+    { data: '29/03', dia: 'Sáb', hora: '17:00', time1: 'Inter Miami', gols1: '1', artilheiros1: ['Zainfe'], time2: 'Auckland City', gols2: '2', artilheiros2: ['Hudson', 'Pedro'] },
+    { data: '29/03', dia: 'Sáb', hora: '18:00', time1: 'Benfica', gols1: '3', artilheiros1: ['Hebert', 'Helton', 'Elton'], time2: 'Al Ahly', gols2: '2', artilheiros2: ['Macarrão', 'Alex'] },
 
     { data: '03/04', dia: 'Qui', hora: '19:00', time1: 'Inter Miami', gols1: '', artilheiros1: [], time2: 'Al Ahly', gols2: '', artilheiros2: [] },
     { data: '03/04', dia: 'Qui', hora: '20:00', time1: 'Porto', gols1: '', artilheiros1: [], time2: 'Auckland City', gols2: '', artilheiros2: [] },
@@ -34,15 +34,20 @@ const resultados = [
 
 const cartoes = [
     { jogador: "Mario", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
-    { jogador: "Eduardo", time: "Inter Miami", amarelos: 2, vermelhos: 0 },
+    { jogador: "Souza", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
+    { jogador: "Macarrão", time: "Ah Ahly", amarelos: 1, vermelhos: 0 },
+    { jogador: "Eduardo", time: "Inter Miami", amarelos: 3, vermelhos: 0 },
+    { jogador: "Gilson", time: "Inter Miami", amarelos: 0, vermelhos: 1 },
     { jogador: "Hamilton", time: "Benfica", amarelos: 1, vermelhos: 0 },
+    { jogador: "Vitor Mello", time: "Benfica", amarelos: 1, vermelhos: 0 },
+    { jogador: "George", time: "Hebert", amarelos: 1, vermelhos: 0 },
     { jogador: "Thiago", time: "Porto", amarelos: 1, vermelhos: 0 },
-    { jogador: "Hamilton", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Ceará", time: "Porto", amarelos: 0, vermelhos: 1 },
-    { jogador: "Pedro", time: "Auckland City", amarelos: 1, vermelhos: 0 },
+    { jogador: "Pedro", time: "Auckland City", amarelos: 2, vermelhos: 0 },
     { jogador: "Paulo", time: "Auckland City", amarelos: 1, vermelhos: 0 },
-    { jogador: "George", time: "Auckland City", amarelos: 1, vermelhos: 0 },
-    { jogador: "Ismail", time: "Auckland City", amarelos: 1, vermelhos: 0 }
+    { jogador: "George", time: "Auckland City", amarelos: 1, vermelhos: 1 },
+    { jogador: "Ismail", time: "Auckland City", amarelos: 1, vermelhos: 0 },
+    { jogador: "Hudson", time: "Auckland City", amarelos: 0, vermelhos: 1 }
 ];
 
 const eliminatorias = [
