@@ -7,7 +7,7 @@ const resultados = [
     { data: '19/03', dia: 'Qua', hora: '19:00', time1: 'Inter Miami', gols1: '6', artilheiros1: ['João Marcos', 'João Marcos', 'Ewerton', 'Jean', 'João Miguel', 'João Miguel'], time2: 'Porto', gols2: '1', artilheiros2: ['Ceará'] },
     { data: '21/03', dia: 'Sex', hora: '19:00', time1: 'Benfica', gols1: '3', artilheiros1: ['Bruno', 'Helton', 'Bruno'], time2: 'Auckland City', gols2: '2', artilheiros2: ['Pedro', 'Pedro'] },
 
-    { data: '29/03', dia: 'Sáb', hora: '17:00', time1: 'Inter Miami', gols1: '', artilheiros1: [], time2: 'Auckland City', gols2: '', artilheiros2: [] },
+    { data: '29/03', dia: 'Sáb', hora: '17:00', time1: 'Inter Miami', gols1: '', artilheiros1: ['Hudson', 'Pedro'], time2: 'Auckland City', gols2: '', artilheiros2: ['Zainfe'] },
     { data: '29/03', dia: 'Sáb', hora: '18:00', time1: 'Benfica', gols1: '', artilheiros1: [], time2: 'Al Ahly', gols2: '', artilheiros2: [] },
 
     { data: '03/04', dia: 'Qui', hora: '19:00', time1: 'Inter Miami', gols1: '', artilheiros1: [], time2: 'Al Ahly', gols2: '', artilheiros2: [] },
