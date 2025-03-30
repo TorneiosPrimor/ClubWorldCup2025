@@ -35,7 +35,7 @@ const resultados = [
 const cartoes = [
     { jogador: "Mario", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Souza", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
-    { jogador: "Macarrão", time: "Ah Ahly", amarelos: 1, vermelhos: 0 },
+    { jogador: "Macarrão", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Eduardo", time: "Inter Miami", amarelos: 3, vermelhos: 0 },
     { jogador: "Gilson", time: "Inter Miami", amarelos: 0, vermelhos: 1 },
     { jogador: "Hamilton", time: "Benfica", amarelos: 1, vermelhos: 0 },
