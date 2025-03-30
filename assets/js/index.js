@@ -40,7 +40,7 @@ const cartoes = [
     { jogador: "Gilson", time: "Inter Miami", amarelos: 0, vermelhos: 1 },
     { jogador: "Hamilton", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Vitor Mello", time: "Benfica", amarelos: 1, vermelhos: 0 },
-    { jogador: "George", time: "Hebert", amarelos: 1, vermelhos: 0 },
+    { jogador: "Hebert", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Thiago", time: "Porto", amarelos: 1, vermelhos: 0 },
     { jogador: "Ceará", time: "Porto", amarelos: 0, vermelhos: 1 },
     { jogador: "Pedro", time: "Auckland City", amarelos: 2, vermelhos: 0 },
