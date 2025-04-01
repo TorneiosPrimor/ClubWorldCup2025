@@ -62,10 +62,10 @@ const suspensoes = [
 
 const cartoesTimes = [
     { time: "Al Ahly", amarelos: 3, vermelhos: 0 },
-    { time: "Inter Miami", amarelos: 3, vermelhos: 1 },
+    { time: "Inter Miami", amarelos: 3, vermelhos: 2 },
     { time: "Benfica", amarelos: 3, vermelhos: 0 },
     { time: "Porto", amarelos: 1, vermelhos: 1 },
-    { time: "Auckland City", amarelos: 7, vermelhos: 3 },
+    { time: "Auckland City", amarelos: 6, vermelhos: 2 },
 ];
 
 const eliminatorias = [
