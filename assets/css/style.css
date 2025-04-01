@@ -232,7 +232,7 @@ table {
 }
 th, td {
     /* border: 1px solid #ddd; */
-    padding: .4rem .3rem;
+    padding: .4rem .2rem;
     font-size: var(--normal-font-size);
     text-align: center;
 }
@@ -282,10 +282,10 @@ th, td {
     transform: scale(2.8);
 }
 .imgRight{
-    transform: translateX(.7rem);
+    transform: translateX(.6rem);
 }
 .imgLeft{
-    transform: translateX(-.7rem);
+    transform: translateX(-.6rem);
 }
 .losango svg path {
     fill: var(--color-3);
@@ -334,7 +334,7 @@ h2 {
 
 
 /* ARTILHARIA */
-#tabelaArtilharia, #tabelaCartoes{
+#tabelaArtilharia, #tabelaCartoes, #tabelaSuspensoes, #tabelaCartoesTimes{
     border: 1px solid var(--color-4);
     box-shadow: 0 0 1rem rgb(80, 61, 33, .25);
     filter: drop-shadow(0 0 .5rem rgb(80, 61, 33, .25));
