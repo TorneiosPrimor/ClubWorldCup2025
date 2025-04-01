@@ -33,7 +33,7 @@ const resultados = [
 ];
 
 const cartoes = [
-    { jogador: "Mario", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
+    { jogador: "Mário", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Souza", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Macarrão", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Eduardo", time: "Inter Miami", amarelos: 3, vermelhos: 0 },
@@ -45,9 +45,27 @@ const cartoes = [
     { jogador: "Ceará", time: "Porto", amarelos: 0, vermelhos: 1 },
     { jogador: "Pedro", time: "Auckland City", amarelos: 2, vermelhos: 0 },
     { jogador: "Paulo", time: "Auckland City", amarelos: 1, vermelhos: 0 },
+    { jogador: "Ismael", time: "Auckland City", amarelos: 1, vermelhos: 0 },
     { jogador: "George", time: "Auckland City", amarelos: 1, vermelhos: 1 },
-    { jogador: "Ismail", time: "Auckland City", amarelos: 1, vermelhos: 0 },
-    { jogador: "Hudson", time: "Auckland City", amarelos: 0, vermelhos: 1 }
+    { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 1 },
+    { jogador: "Célio", time: "Auckland City", amarelos: 1, vermelhos: 1 }
+];
+
+const suspensoes = [
+    { jogador: "George", time: "Auckland City", amarelos: 1, vermelhos: 1 },
+    { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 1 },
+    { jogador: "Célio", time: "Auckland City", amarelos: 1, vermelhos: 1 },
+    { jogador: "Gilson", time: "Inter Miami", amarelos: 0, vermelhos: 1 },
+    { jogador: "Ceará", time: "Porto", amarelos: 0, vermelhos: 1 },
+    { jogador: "Eduardo", time: "Inter Miami", amarelos: 3, vermelhos: 0 }
+]
+
+const cartoesTimes = [
+    { time: "Al Ahly", amarelos: 3, vermelhos: 0 },
+    { time: "Inter Miami", amarelos: 3, vermelhos: 1 },
+    { time: "Benfica", amarelos: 3, vermelhos: 0 },
+    { time: "Porto", amarelos: 1, vermelhos: 1 },
+    { time: "Auckland City", amarelos: 7, vermelhos: 3 },
 ];
 
 const eliminatorias = [
@@ -330,16 +348,15 @@ function exibirTabelaDeArtilharia() {
 
 function exibirTabelaDeCartoes() {
     // Ordenar conforme a prioridade: mais cartões > mais vermelhos > mais amarelos
-    cartoes.sort((a, b) =>
-        (b.vermelhos + b.amarelos) - (a.vermelhos + a.amarelos) || 
-        b.vermelhos - a.vermelhos || 
-        b.amarelos - a.amarelos
+    cartoes.sort((a, b) => 
+        b.vermelhos - a.vermelhos ||  // Prioriza quem tem mais cartões vermelhos
+        b.amarelos - a.amarelos      // Depois, prioriza quem tem mais cartões amarelos
     );
+    
 
     // Construir HTML da tabela
     const tabelaHTML = cartoes.map((jogador, index) => `
         <tr class="tableArtilharia">
-            <td>${index + 1}</td>
             <td class="imgArtilharia"><img src="assets/images/${jogador.time}.png" alt=""></td>
             <td class="nomeArtilharia">${jogador.jogador}</td>
             <td>${jogador.amarelos}</td>
@@ -352,8 +369,7 @@ function exibirTabelaDeCartoes() {
         <table>
             <thead>
                 <tr>
-                    <th>#</th>
-                    <th></th>
+                    <th style="text-align: left;">Time</th>
                     <th>Jogador</th>
                     <th><div style="background: yellow;" class="cartao"></div></th>
                     <th><div style="background: red;" class="cartao"></div></th>
@@ -365,7 +381,63 @@ function exibirTabelaDeCartoes() {
         </table>
     `;
 }
+function exibirTabelaDeSuspensoes() {
+    // Construir HTML da tabela
+    const tabelaHTML = suspensoes.map((jogador, index) => `
+        <tr class="tableArtilharia">
+            <td class="imgArtilharia"><img src="assets/images/${jogador.time}.png" alt=""></td>
+            <td class="nomeArtilharia">${jogador.jogador}</td>
+            <td>${jogador.amarelos}</td>
+            <td>${jogador.vermelhos}</td>
+        </tr>
+    `).join('');
 
+    document.getElementById('tabelaSuspensoes').innerHTML = `
+        <h2 class="artilharia"><strong>Suspensões</strong></h2>
+        <table>
+            <thead>
+                <tr>
+                    <th style="text-align: left;">Time</th>
+                    <th>Jogador</th>
+                    <th><div style="background: yellow;" class="cartao"></div></th>
+                    <th><div style="background: red;" class="cartao"></div></th>
+                </tr>
+            </thead>
+            <tbody>
+                ${tabelaHTML}
+            </tbody>
+        </table>
+        <h5 style="margin-top: 1rem; text-align: center;"><i>Jogadores cumprirão <br> suspensão de 1 partida</i></h5>
+    `;
+}
+function exibirTabelaDeCartoesTimes() {
+    // Construir HTML da tabela
+    const tabelaHTML = cartoesTimes.map((cartao, index) => `
+        <tr class="tableArtilharia">
+            <td class="imgArtilharia"><img src="assets/images/${cartao.time}.png" alt=""></td>
+            <td class="nomeArtilharia">${cartao.time}</td>
+            <td>${cartao.amarelos}</td>
+            <td>${cartao.vermelhos}</td>
+        </tr>
+    `).join('');
+
+    document.getElementById('tabelaCartoesTimes').innerHTML = `
+        <h2 class="artilharia"><strong>Cartões</strong></h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Time</th>
+                    <th><div style="background: yellow;" class="cartao"></div></th>
+                    <th><div style="background: red;" class="cartao"></div></th>
+                </tr>
+            </thead>
+            <tbody>
+                ${tabelaHTML}
+            </tbody>
+        </table>
+    `;
+}
 // Inicializa as tabelas ao carregar a página
 function atualizarTabelas() {
     exibirTabelaDeJogos();
@@ -373,6 +445,8 @@ function atualizarTabelas() {
     exibirTabelaDeClassificacao();
     exibirTabelaDeArtilharia();
     exibirTabelaDeCartoes();
+    exibirTabelaDeSuspensoes()
+    exibirTabelaDeCartoesTimes()
 }
 
 // Inicializa as tabelas ao carregar a página
