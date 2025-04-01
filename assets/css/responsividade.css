@@ -38,7 +38,7 @@ Extra     extra large	xxl	≥1400px
         gap: 2rem;
     }
     #tabelaArtilharia, #tabelaCartoes{
-        min-width: 24.225rem;
+        /* width: 97.7%; */
     }
 }
 /* Small devices (landscape phones, less than 768px) */
