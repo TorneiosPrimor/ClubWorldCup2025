@@ -48,13 +48,13 @@ const cartoes = [
     { jogador: "Ismael", time: "Auckland City", amarelos: 1, vermelhos: 0 },
     { jogador: "George", time: "Auckland City", amarelos: 1, vermelhos: 1 },
     { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 1 },
-    { jogador: "Célio", time: "Auckland City", amarelos: 1, vermelhos: 1 }
+    { jogador: "Célio", time: "Inter Miami", amarelos: 1, vermelhos: 1 }
 ];
 
 const suspensoes = [
     { jogador: "George", time: "Auckland City", amarelos: 1, vermelhos: 1 },
     { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 1 },
-    { jogador: "Célio", time: "Auckland City", amarelos: 1, vermelhos: 1 },
+    { jogador: "Célio", time: "Inter Miami", amarelos: 1, vermelhos: 1 },
     { jogador: "Gilson", time: "Inter Miami", amarelos: 0, vermelhos: 1 },
     { jogador: "Ceará", time: "Porto", amarelos: 0, vermelhos: 1 },
     { jogador: "Eduardo", time: "Inter Miami", amarelos: 3, vermelhos: 0 }
