@@ -10,8 +10,8 @@ const resultados = [
     { data: '29/03', dia: 'Sáb', hora: '17:00', time1: 'Inter Miami', gols1: '1', artilheiros1: ['Zainfe'], time2: 'Auckland City', gols2: '2', artilheiros2: ['Hudson', 'Pedro'] },
     { data: '29/03', dia: 'Sáb', hora: '18:00', time1: 'Benfica', gols1: '3', artilheiros1: ['Hebert', 'Helton', 'Helton'], time2: 'Al Ahly', gols2: '2', artilheiros2: ['Macarrão', 'Alex'] },
 
-    { data: '03/04', dia: 'Qui', hora: '19:00', time1: 'Inter Miami', gols1: '', artilheiros1: [], time2: 'Al Ahly', gols2: '', artilheiros2: [] },
-    { data: '03/04', dia: 'Qui', hora: '20:00', time1: 'Porto', gols1: '', artilheiros1: [], time2: 'Auckland City', gols2: '', artilheiros2: [] },
+    { data: '03/04', dia: 'Qui', hora: '19:30', time1: 'Inter Miami', gols1: '', artilheiros1: [], time2: 'Al Ahly', gols2: '', artilheiros2: [] },
+    { data: '03/04', dia: 'Qui', hora: '20:30', time1: 'Porto', gols1: '', artilheiros1: [], time2: 'Auckland City', gols2: '', artilheiros2: [] },
 
     { data: '12/04', dia: 'Sáb', hora: '17:00', time1: 'Benfica', gols1: '', artilheiros1: [], time2: 'Porto', gols2: '', artilheiros2: [] },
     { data: '12/04', dia: 'Sáb', hora: '18:00', time1: 'Al Ahly', gols1: '', artilheiros1: [], time2: 'Auckland City', gols2: '', artilheiros2: [] },
@@ -19,14 +19,14 @@ const resultados = [
     { data: '19/04', dia: 'Sáb', hora: '17:00', time1: 'Benfica', gols1: '', artilheiros1: [], time2: 'Inter Miami', gols2: '', artilheiros2: [] },
     { data: '19/04', dia: 'Sáb', hora: '18:00', time1: 'Al Ahly', gols1: '', artilheiros1: [], time2: 'Porto', gols2: '', artilheiros2: [] },
 
-    { data: '24/04', dia: 'Qui', hora: '19:00', time1: 'Porto', gols1: '', artilheiros1: [], time2: 'Inter Miami', gols2: '', artilheiros2: [] },
-    { data: '24/04', dia: 'Qui', hora: '20:00', time1: 'Auckland City', gols1: '', artilheiros1: [], time2: 'Benfica', gols2: '', artilheiros2: [] },
+    { data: '24/04', dia: 'Qui', hora: '19:30', time1: 'Porto', gols1: '', artilheiros1: [], time2: 'Inter Miami', gols2: '', artilheiros2: [] },
+    { data: '24/04', dia: 'Qui', hora: '20:30', time1: 'Auckland City', gols1: '', artilheiros1: [], time2: 'Benfica', gols2: '', artilheiros2: [] },
 
     { data: '03/05', dia: 'Sáb', hora: '17:00', time1: 'Auckland City', gols1: '', artilheiros1: [], time2: 'Inter Miami', gols2: '', artilheiros2: [] },
     { data: '03/05', dia: 'Sáb', hora: '18:00', time1: 'Al Ahly', gols1: '', artilheiros1: [], time2: 'Benfica', gols2: '', artilheiros2: [] },
 
-    { data: '08/05', dia: 'Qui', hora: '19:00', time1: 'Al Ahly', gols1: '', artilheiros1: [], time2: 'Inter Miami', gols2: '', artilheiros2: [] },
-    { data: '08/05', dia: 'Qui', hora: '20:00', time1: 'Auckland City', gols1: '', artilheiros1: [], time2: 'Porto', gols2: '', artilheiros2: [] },
+    { data: '08/05', dia: 'Qui', hora: '19:30', time1: 'Al Ahly', gols1: '', artilheiros1: [], time2: 'Inter Miami', gols2: '', artilheiros2: [] },
+    { data: '08/05', dia: 'Qui', hora: '20:30', time1: 'Auckland City', gols1: '', artilheiros1: [], time2: 'Porto', gols2: '', artilheiros2: [] },
 
     { data: '17/05', dia: 'Sáb', hora: '17:00', time1: 'Porto', gols1: '', artilheiros1: [], time2: 'Benfica', gols2: '', artilheiros2: [] },
     { data: '17/05', dia: 'Sáb', hora: '18:00', time1: 'Auckland City', gols1: '', artilheiros1: [], time2: 'Al Ahly', gols2: '', artilheiros2: [] },
