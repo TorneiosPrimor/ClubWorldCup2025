@@ -36,28 +36,24 @@ const cartoes = [
     { jogador: "Mário", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Souza", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Macarrão", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
-    { jogador: "Eduardo", time: "Inter Miami", amarelos: 3, vermelhos: 0 },
-    { jogador: "Gilson", time: "Inter Miami", amarelos: 0, vermelhos: 1 },
+    { jogador: "Marquinhos", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
+    
     { jogador: "Hamilton", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Vitor Mello", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Hebert", time: "Benfica", amarelos: 1, vermelhos: 0 },
-    { jogador: "Thiago", time: "Porto", amarelos: 1, vermelhos: 0 },
-    { jogador: "Ceará", time: "Porto", amarelos: 0, vermelhos: 1 },
-    { jogador: "Pedro", time: "Auckland City", amarelos: 2, vermelhos: 0 },
+    
+    { jogador: "Thiago", time: "Porto", amarelos: 2, vermelhos: 0 },
+    { jogador: "Gabriel Jr", time: "Porto", amarelos: 1, vermelhos: 0 },
+    
+    { jogador: "Pedro", time: "Auckland City", amarelos: 3, vermelhos: 0 },
     { jogador: "Paulo", time: "Auckland City", amarelos: 1, vermelhos: 0 },
     { jogador: "Ismael", time: "Auckland City", amarelos: 1, vermelhos: 0 },
-    { jogador: "George", time: "Auckland City", amarelos: 1, vermelhos: 1 },
-    { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 1 },
-    { jogador: "Célio", time: "Inter Miami", amarelos: 1, vermelhos: 1 }
+    { jogador: "E. Alencar", time: "Auckland City", amarelos: 0, vermelhos: 1 }
 ];
 
 const suspensoes = [
-    { jogador: "George", time: "Auckland City", amarelos: 1, vermelhos: 1 },
-    { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 1 },
-    { jogador: "Célio", time: "Inter Miami", amarelos: 1, vermelhos: 1 },
-    { jogador: "Gilson", time: "Inter Miami", amarelos: 0, vermelhos: 1 },
-    { jogador: "Ceará", time: "Porto", amarelos: 0, vermelhos: 1 },
-    { jogador: "Eduardo", time: "Inter Miami", amarelos: 3, vermelhos: 0 }
+    { jogador: "Pedro", time: "Auckland City", amarelos: 3, vermelhos: 0 },
+    { jogador: "E. Alencar", time: "Auckland City", amarelos: 0, vermelhos: 1 }
 ]
 
 const cartoesTimes = [
