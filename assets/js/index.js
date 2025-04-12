@@ -13,7 +13,7 @@ const resultados = [
     { data: '03/04', dia: 'Qui', hora: '19:30', time1: 'Inter Miami', gols1: '4', artilheiros1: ['Ewerton', 'Matheus', 'Ewerton', 'João Miguel'], time2: 'Al Ahly', gols2: '2', artilheiros2: ['Alex', 'Alex'] },
     { data: '03/04', dia: 'Qui', hora: '20:30', time1: 'Porto', gols1: '6', artilheiros1: ['Gabriel', 'Orivaldo', 'Gabriel', 'Gabriel Jr', 'GC', 'Thiago'], time2: 'Auckland City', gols2: '1', artilheiros2: ['André'] },
 
-    { data: '12/04', dia: 'Sáb', hora: '17:00', time1: 'Benfica', gols1: '', artilheiros1: [], time2: 'Porto', gols2: '', artilheiros2: [] },
+    { data: '12/04', dia: 'Sáb', hora: '17:00', time1: 'Benfica', gols1: '3', artilheiros1: [], time2: 'Porto', gols2: '3', artilheiros2: [] },
     { data: '12/04', dia: 'Sáb', hora: '18:00', time1: 'Al Ahly', gols1: '', artilheiros1: [], time2: 'Auckland City', gols2: '', artilheiros2: [] },
 
     { data: '19/04', dia: 'Sáb', hora: '17:00', time1: 'Benfica', gols1: '', artilheiros1: [], time2: 'Inter Miami', gols2: '', artilheiros2: [] },
