@@ -47,10 +47,8 @@ const cartoes = [
     { jogador: "Thiago", time: "Porto", amarelos: 3, vermelhos: 0 },
     { jogador: "Gabriel Jr", time: "Porto", amarelos: 1, vermelhos: 0 },
     
-    { jogador: "Pedro", time: "Auckland City", amarelos: 3, vermelhos: 0 },
     { jogador: "Paulo", time: "Auckland City", amarelos: 1, vermelhos: 0 },
     { jogador: "Ismael", time: "Auckland City", amarelos: 1, vermelhos: 0 },
-    { jogador: "E. Alencar", time: "Auckland City", amarelos: 0, vermelhos: 1 },
     { jogador: "Denilso", time: "Auckland City", amarelos: 1, vermelhos: 0 },
     { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 0 }
 ];
