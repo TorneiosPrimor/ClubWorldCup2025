@@ -1,35 +1,75 @@
 const times = ['Inter Miami', 'Benfica', 'Porto', 'Al Ahly', 'Auckland City'];
 
 const resultados = [
-    { data: '14/03', dia: 'Sex', hora: '19:00', time1: 'Porto', gols1: '1', artilheiros1: ['Ceará'], time2: 'Al Ahly', gols2: '9', artilheiros2: ['Macarrão', 'Macarrão', 'Macarrão', 'Elienderson', 'Poke', 'Xandão', 'Alex', 'Burguês', 'Burguês'] },
-    { data: '15/03', dia: 'Sáb', hora: '17:00', time1: 'Inter Miami', gols1: '3', artilheiros1: ['GC', 'João Miguel', 'Ewerton'], time2: 'Benfica', gols2: '1', artilheiros2: ['Helton'] },
+    { data: '14/03', dia: 'Sex', hora: '19:00',
+        time1: 'Porto', gols1: '1', artilheiros1: ['Ceará'],
+        time2: 'Al Ahly', gols2: '9', artilheiros2: ['Macarrão', 'Macarrão', 'Macarrão', 'Elienderson', 'Poke', 'Xandão', 'Alex', 'Burguês', 'Burguês'] },
+    { data: '15/03', dia: 'Sáb', hora: '17:00',
+        time1: 'Inter Miami', gols1: '3', artilheiros1: ['GC', 'João Miguel', 'Ewerton'],
+        time2: 'Benfica', gols2: '1', artilheiros2: ['Helton'] },
 
-    { data: '19/03', dia: 'Qua', hora: '19:00', time1: 'Inter Miami', gols1: '6', artilheiros1: ['João Marcos', 'João Marcos', 'Ewerton', 'Jean', 'João Miguel', 'João Miguel'], time2: 'Porto', gols2: '1', artilheiros2: ['Ceará'] },
-    { data: '21/03', dia: 'Sex', hora: '19:00', time1: 'Benfica', gols1: '3', artilheiros1: ['Bruno', 'Helton', 'Bruno'], time2: 'Auckland City', gols2: '2', artilheiros2: ['Pedro', 'Pedro'] },
+    { data: '19/03', dia: 'Qua', hora: '19:00',
+        time1: 'Inter Miami', gols1: '6', artilheiros1: ['João Marcos', 'João Marcos', 'Ewerton', 'Jean', 'João Miguel', 'João Miguel'],
+        time2: 'Porto', gols2: '1', artilheiros2: ['Ceará'] },
+    { data: '21/03', dia: 'Sex', hora: '19:00',
+        time1: 'Benfica', gols1: '3', artilheiros1: ['Bruno', 'Helton', 'Bruno'],
+        time2: 'Auckland City', gols2: '2', artilheiros2: ['Pedro', 'Pedro'] },
 
-    { data: '29/03', dia: 'Sáb', hora: '17:00', time1: 'Inter Miami', gols1: '1', artilheiros1: ['Zainfe'], time2: 'Auckland City', gols2: '2', artilheiros2: ['Hudson', 'Pedro'] },
-    { data: '29/03', dia: 'Sáb', hora: '18:00', time1: 'Benfica', gols1: '3', artilheiros1: ['Hebert', 'Helton', 'Helton'], time2: 'Al Ahly', gols2: '2', artilheiros2: ['Macarrão', 'Alex'] },
+    { data: '29/03', dia: 'Sáb', hora: '17:00',
+        time1: 'Inter Miami', gols1: '1', artilheiros1: ['Zainfe'],
+        time2: 'Auckland City', gols2: '2', artilheiros2: ['Hudson', 'Pedro'] },
+    { data: '29/03', dia: 'Sáb', hora: '18:00',
+        time1: 'Benfica', gols1: '3', artilheiros1: ['Hebert', 'Helton', 'Helton'],
+        time2: 'Al Ahly', gols2: '2', artilheiros2: ['Macarrão', 'Alex'] },
 
-    { data: '03/04', dia: 'Qui', hora: '19:30', time1: 'Inter Miami', gols1: '4', artilheiros1: ['Ewerton', 'Matheus', 'Ewerton', 'João Miguel'], time2: 'Al Ahly', gols2: '2', artilheiros2: ['Alex', 'Alex'] },
-    { data: '03/04', dia: 'Qui', hora: '20:30', time1: 'Porto', gols1: '6', artilheiros1: ['Gabriel', 'Orivaldo', 'Gabriel', 'Gabriel Jr', 'GC', 'Thiago'], time2: 'Auckland City', gols2: '1', artilheiros2: ['André'] },
+    { data: '03/04', dia: 'Qui', hora: '19:30',
+        time1: 'Inter Miami', gols1: '4', artilheiros1: ['Ewerton', 'Matheus', 'Ewerton', 'João Miguel'],
+        time2: 'Al Ahly', gols2: '2', artilheiros2: ['Alex', 'Alex'] },
+    { data: '03/04', dia: 'Qui', hora: '20:30',
+        time1: 'Porto', gols1: '6', artilheiros1: ['Gabriel', 'Orivaldo', 'Gabriel', 'Gabriel Jr', 'GC', 'Thiago'],
+        time2: 'Auckland City', gols2: '1', artilheiros2: ['André'] },
 
-    { data: '12/04', dia: 'Sáb', hora: '17:00', time1: 'Benfica', gols1: '3', artilheiros1: ['GC', 'Victor', 'Hebert'], time2: 'Porto', gols2: '3', artilheiros2: ['Gabriel', 'Patrick', 'Thiago'] },
-    { data: '12/04', dia: 'Sáb', hora: '18:00', time1: 'Al Ahly', gols1: '2', artilheiros1: ['Burguês', 'Adriano'], time2: 'Auckland City', gols2: '5', artilheiros2: ['André', 'Hudson', 'André', 'Paulo', 'André'] },
+    { data: '12/04', dia: 'Sáb', hora: '17:00',
+        time1: 'Benfica', gols1: '3', artilheiros1: ['GC', 'Victor', 'Hebert'],
+        time2: 'Porto', gols2: '3', artilheiros2: ['Gabriel', 'Patrick', 'Thiago'] },
+    { data: '12/04', dia: 'Sáb', hora: '18:00',
+        time1: 'Al Ahly', gols1: '2', artilheiros1: ['Burguês', 'Adriano'],
+        time2: 'Auckland City', gols2: '5', artilheiros2: ['André', 'Hudson', 'André', 'Paulo', 'André'] },
 
-    { data: '19/04', dia: 'Sáb', hora: '17:00', time1: 'Benfica', gols1: '', artilheiros1: [], time2: 'Inter Miami', gols2: '', artilheiros2: [] },
-    { data: '19/04', dia: 'Sáb', hora: '18:00', time1: 'Al Ahly', gols1: '', artilheiros1: [], time2: 'Porto', gols2: '', artilheiros2: [] },
+    { data: '19/04', dia: 'Sáb', hora: '17:00',
+        time1: 'Benfica', gols1: '', artilheiros1: [],
+        time2: 'Inter Miami', gols2: '', artilheiros2: [] },
+    { data: '19/04', dia: 'Sáb', hora: '18:00',
+        time1: 'Al Ahly', gols1: '', artilheiros1: [],
+        time2: 'Porto', gols2: '', artilheiros2: [] },
 
-    { data: '24/04', dia: 'Qui', hora: '19:30', time1: 'Porto', gols1: '', artilheiros1: [], time2: 'Inter Miami', gols2: '', artilheiros2: [] },
-    { data: '24/04', dia: 'Qui', hora: '20:30', time1: 'Auckland City', gols1: '', artilheiros1: [], time2: 'Benfica', gols2: '', artilheiros2: [] },
+    { data: '24/04', dia: 'Qui', hora: '19:30',
+        time1: 'Porto', gols1: '', artilheiros1: [],
+        time2: 'Inter Miami', gols2: '', artilheiros2: [] },
+    { data: '24/04', dia: 'Qui', hora: '20:30',
+        time1: 'Auckland City', gols1: '', artilheiros1: [],
+        time2: 'Benfica', gols2: '', artilheiros2: [] },
 
-    { data: '03/05', dia: 'Sáb', hora: '17:00', time1: 'Auckland City', gols1: '', artilheiros1: [], time2: 'Inter Miami', gols2: '', artilheiros2: [] },
-    { data: '03/05', dia: 'Sáb', hora: '18:00', time1: 'Al Ahly', gols1: '', artilheiros1: [], time2: 'Benfica', gols2: '', artilheiros2: [] },
+    { data: '03/05', dia: 'Sáb', hora: '17:00',
+        time1: 'Auckland City', gols1: '', artilheiros1: [],
+        time2: 'Inter Miami', gols2: '', artilheiros2: [] },
+    { data: '03/05', dia: 'Sáb', hora: '18:00',
+        time1: 'Al Ahly', gols1: '', artilheiros1: [],
+        time2: 'Benfica', gols2: '', artilheiros2: [] },
 
-    { data: '08/05', dia: 'Qui', hora: '19:30', time1: 'Al Ahly', gols1: '', artilheiros1: [], time2: 'Inter Miami', gols2: '', artilheiros2: [] },
-    { data: '08/05', dia: 'Qui', hora: '20:30', time1: 'Auckland City', gols1: '', artilheiros1: [], time2: 'Porto', gols2: '', artilheiros2: [] },
+    { data: '08/05', dia: 'Qui', hora: '19:30',
+        time1: 'Al Ahly', gols1: '', artilheiros1: [],
+        time2: 'Inter Miami', gols2: '', artilheiros2: [] },
+    { data: '08/05', dia: 'Qui', hora: '20:30',
+        time1: 'Auckland City', gols1: '', artilheiros1: [],
+        time2: 'Porto', gols2: '', artilheiros2: [] },
 
-    { data: '17/05', dia: 'Sáb', hora: '17:00', time1: 'Porto', gols1: '', artilheiros1: [], time2: 'Benfica', gols2: '', artilheiros2: [] },
-    { data: '17/05', dia: 'Sáb', hora: '18:00', time1: 'Auckland City', gols1: '', artilheiros1: [], time2: 'Al Ahly', gols2: '', artilheiros2: [] },
+    { data: '17/05', dia: 'Sáb', hora: '17:00',
+        time1: 'Porto', gols1: '', artilheiros1: [],
+        time2: 'Benfica', gols2: '', artilheiros2: [] },
+    { data: '17/05', dia: 'Sáb', hora: '18:00',
+        time1: 'Auckland City', gols1: '', artilheiros1: [],
+        time2: 'Al Ahly', gols2: '', artilheiros2: [] },
 ];
 
 const cartoes = [
@@ -67,13 +107,44 @@ const cartoesTimes = [
 ];
 
 const eliminatorias = [
-    { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '19:00', time1: '1º Colocado', gols1: '', artilheiros1: [], time2: '4º Colocado', gols2: '', artilheiros2: [] },
-    { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '20:00', time1: '2º Colocado', gols1: '', artilheiros1: [], time2: '3º Colocado', gols2: '', artilheiros2: [] },
+    { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '19:00',
+        time1: '1º Colocado', gols1: '', artilheiros1: [],
+        time2: '4º Colocado', gols2: '', artilheiros2: [] },
+    { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '20:00',
+        time1: '2º Colocado', gols1: '', artilheiros1: [],
+        time2: '3º Colocado', gols2: '', artilheiros2: [] },
 
-    { fase: 'Disputa 3º Lugar', data: '24/05', dia: 'Sáb', hora: '17:00', time1: 'Perdedor SF', gols1: '', artilheiros1: [], time2: 'Perdedor SF', gols2: '', artilheiros2: [] },
+    { fase: 'Disputa 3º Lugar', data: '24/05', dia: 'Sáb', hora: '17:00',
+        time1: 'Perdedor SF', gols1: '', artilheiros1: [],
+        time2: 'Perdedor SF', gols2: '', artilheiros2: [] },
 
-    { fase: 'Final', data: '24/05', dia: 'Sáb', hora: '18:00', time1: 'Vencedor SF', gols1: '', artilheiros1: [], time2: 'Vencedor SF', gols2: '', artilheiros2: [] }
+    { fase: 'Final', data: '24/05', dia: 'Sáb', hora: '18:00',
+        time1: 'Vencedor SF', gols1: '', artilheiros1: [],
+        time2: 'Vencedor SF', gols2: '', artilheiros2: [] }
 ];
+
+// Filtra os jogos que ainda não têm resultado (gols1 e gols2 vazios)
+const proximosJogos = resultados.filter(jogo => jogo.gols1 === '' && jogo.gols2 === '');
+
+// Pega apenas os dois primeiros
+const doisProximos = proximosJogos.slice(0, 2);
+
+// Renderiza no HTML
+const container = document.getElementById('jogosProxPartida');
+
+doisProximos.forEach(jogo => {
+    const jogoHTML = `
+        <tr>
+            <td class="textProxPartida">${jogo.data} <strong>|</strong> ${jogo.dia}</td>
+            <td><img src="assets/images/${jogo.time1}.png"></td>
+            <td class="timeProx"><p>x</p></td>
+            <td><img src="assets/images/${jogo.time2}.png"></td>
+            <td class="textProxPartida"></img>${jogo.hora}</td>
+        </tr>
+    `;
+    container.innerHTML += jogoHTML;
+});
+
 
 function calcularClassificacao() {
     const classificacao = times.map(time => ({
@@ -496,6 +567,18 @@ document.addEventListener('DOMContentLoaded', function(){
             behavior: 'smooth'
         });
     })
+})
+
+//Função para abrir PopUp
+var popUp = document.querySelector('.popUpPedido')
+var fecharPopUp = document.querySelector('.closePopUp')
+//Tempo para o PopUp aparecer
+setTimeout(() => {
+  popUp.classList.remove('popUpPedidoNone')
+}, 3000);
+//Função para fechar PopUp
+fecharPopUp.addEventListener('click', function(){
+  popUp.classList.add('popUpPedidoNone')
 })
 
 /***********************************************************/
