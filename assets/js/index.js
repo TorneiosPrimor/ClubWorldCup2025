@@ -56,8 +56,8 @@ const cartoes = [
 ];
 
 const suspensoes = [
-    { jogador: "Pedro", time: "Auckland City", amarelos: 3, vermelhos: 0 },
-    { jogador: "E. Alencar", time: "Auckland City", amarelos: 0, vermelhos: 1 }
+    { jogador: "Burguês", time: "Al Ahly", amarelos: 0, vermelhos: 1 },
+    { jogador: "Thiago", time: "Porto", amarelos: 3, vermelhos: 0 }
 ]
 
 const cartoesTimes = [
