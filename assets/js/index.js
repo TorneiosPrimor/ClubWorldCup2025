@@ -63,7 +63,7 @@ const cartoesTimes = [
     { time: "Inter Miami", amarelos: 3, vermelhos: 2 },
     { time: "Benfica", amarelos: 4, vermelhos: 0 },
     { time: "Porto", amarelos: 4, vermelhos: 1 },
-    { time: "Auckland City", amarelos: 8, vermelhos: 3 },
+    { time: "Auckland City", amarelos: 9, vermelhos: 3 },
 ];
 
 const eliminatorias = [
