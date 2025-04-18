@@ -83,6 +83,7 @@ const cartoes = [
     { jogador: "Vitor Mello", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Hebert", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Gomes", time: "Benfica", amarelos: 1, vermelhos: 0 },
+    { jogador: "Victor", time: "Benfica", amarelos: 1, vermelhos: 0 },
     
     { jogador: "Thiago", time: "Porto", amarelos: 3, vermelhos: 0 },
     { jogador: "Gabriel Jr", time: "Porto", amarelos: 1, vermelhos: 0 },
@@ -90,7 +91,10 @@ const cartoes = [
     { jogador: "Paulo", time: "Auckland City", amarelos: 1, vermelhos: 0 },
     { jogador: "Ismael", time: "Auckland City", amarelos: 1, vermelhos: 0 },
     { jogador: "Denilso", time: "Auckland City", amarelos: 1, vermelhos: 0 },
-    { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 0 }
+    { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 0 },
+    
+    { jogador: "Zainfe", time: "Inter Miami", amarelos: 1, vermelhos: 0 },
+    { jogador: "João Miguel", time: "Inter Miami", amarelos: 1, vermelhos: 0 }
 ];
 
 const suspensoes = [
