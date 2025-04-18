@@ -37,8 +37,8 @@ const resultados = [
         time2: 'Auckland City', gols2: '5', artilheiros2: ['André', 'Hudson', 'André', 'Paulo', 'André'] },
 
     { data: '17/04', dia: 'Qui', hora: '19:30',
-        time1: 'Benfica', gols1: '', artilheiros1: [],
-        time2: 'Inter Miami', gols2: '', artilheiros2: [] },
+        time1: 'Benfica', gols1: '1', artilheiros1: [],
+        time2: 'Inter Miami', gols2: '4', artilheiros2: [] },
     { data: '19/04', dia: 'Sáb', hora: '17:00',
         time1: 'Al Ahly', gols1: '', artilheiros1: [],
         time2: 'Porto', gols2: '', artilheiros2: [] },
