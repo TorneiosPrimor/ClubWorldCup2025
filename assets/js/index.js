@@ -76,8 +76,8 @@ const cartoes = [
     { jogador: "Mário", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Souza", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Macarrão", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
-    { jogador: "Marquinhos", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
-    { jogador: "Burguês", time: "Al Ahly", amarelos: 0, vermelhos: 1 },
+    { jogador: "Marquinhos", time: "Al Ahly", amarelos: 1, vermelhos: 1 },
+    { jogador: "Nero", time: "Al Ahly", amarelos: 0, vermelhos: 1 },
     
     { jogador: "Hamilton", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Vitor Mello", time: "Benfica", amarelos: 1, vermelhos: 0 },
@@ -85,7 +85,6 @@ const cartoes = [
     { jogador: "Gomes", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Victor", time: "Benfica", amarelos: 1, vermelhos: 0 },
     
-    { jogador: "Thiago", time: "Porto", amarelos: 3, vermelhos: 0 },
     { jogador: "Gabriel Jr", time: "Porto", amarelos: 1, vermelhos: 0 },
     
     { jogador: "Paulo", time: "Auckland City", amarelos: 1, vermelhos: 0 },
@@ -98,8 +97,8 @@ const cartoes = [
 ];
 
 const suspensoes = [
-    { jogador: "Burguês", time: "Al Ahly", amarelos: 0, vermelhos: 1 },
-    { jogador: "Thiago", time: "Porto", amarelos: 3, vermelhos: 0 }
+    { jogador: "Nero", time: "Al Ahly", amarelos: 0, vermelhos: 1 },
+    { jogador: "Poke", time: "Porto", amarelos: 0, vermelhos: 1 }
 ]
 
 const cartoesTimes = [
