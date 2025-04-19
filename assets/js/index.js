@@ -40,8 +40,8 @@ const resultados = [
         time1: 'Benfica', gols1: '1', artilheiros1: ['Hamilton'],
         time2: 'Inter Miami', gols2: '4', artilheiros2: ['João Miguel', 'Ewerton', 'Ewerton', 'João Miguel'] },
     { data: '19/04', dia: 'Sáb', hora: '17:00',
-        time1: 'Al Ahly', gols1: '1', artilheiros1: [],
-        time2: 'Porto', gols2: '3', artilheiros2: [] },
+        time1: 'Al Ahly', gols1: '1', artilheiros1: ['Nero'],
+        time2: 'Porto', gols2: '3', artilheiros2: ['Eduardo', 'Clarito', 'Fabio'] },
 
     { data: '24/04', dia: 'Qui', hora: '19:30',
         time1: 'Porto', gols1: '', artilheiros1: [],
@@ -86,6 +86,7 @@ const cartoes = [
     { jogador: "Victor", time: "Benfica", amarelos: 1, vermelhos: 0 },
     
     { jogador: "Gabriel Jr", time: "Porto", amarelos: 1, vermelhos: 0 },
+    { jogador: "Orivaldo", time: "Porto", amarelos: 1, vermelhos: 0 },
     
     { jogador: "Paulo", time: "Auckland City", amarelos: 1, vermelhos: 0 },
     { jogador: "Ismael", time: "Auckland City", amarelos: 1, vermelhos: 0 },
