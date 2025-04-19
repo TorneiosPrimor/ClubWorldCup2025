@@ -99,7 +99,7 @@ const cartoes = [
 
 const suspensoes = [
     { jogador: "Nero", time: "Al Ahly", amarelos: 0, vermelhos: 1 },
-    { jogador: "Poke", time: "Porto", amarelos: 0, vermelhos: 1 }
+    { jogador: "Marquinhos", time: "Porto", amarelos: 1, vermelhos: 1 }
 ]
 
 const cartoesTimes = [
