@@ -3,7 +3,7 @@ const times = ['Inter Miami', 'Benfica', 'Porto', 'Al Ahly', 'Auckland City'];
 const resultados = [
     { data: '14/03', dia: 'Sex', hora: '19:00',
         time1: 'Porto', gols1: '1', artilheiros1: ['Ceará'],
-        time2: 'Al Ahly', gols2: '9', artilheiros2: ['Macarrão', 'Macarrão', 'Macarrão', 'Elienderson', 'Poke', 'Xandão', 'Alex', 'Burguês', 'Burguês'] },
+        time2: 'Al Ahly', gols2: '9', artilheiros2: ['Macarrão', 'Macarrão', 'Macarrão', 'Elienderson', 'Marquinhos', 'Xandão', 'Alex', 'Burguês', 'Burguês'] },
     { data: '15/03', dia: 'Sáb', hora: '17:00',
         time1: 'Inter Miami', gols1: '3', artilheiros1: ['GC', 'João Miguel', 'Ewerton'],
         time2: 'Benfica', gols2: '1', artilheiros2: ['Helton'] },
