@@ -44,11 +44,11 @@ const resultados = [
         time2: 'Porto', gols2: '3', artilheiros2: ['Eduardo', 'Clarito', 'Fabio'] },
 
     { data: '24/04', dia: 'Qui', hora: '19:30',
-        time1: 'Porto', gols1: '', artilheiros1: [],
-        time2: 'Inter Miami', gols2: '', artilheiros2: [] },
+        time1: 'Porto', gols1: '2', artilheiros1: [],
+        time2: 'Inter Miami', gols2: '4', artilheiros2: [] },
     { data: '24/04', dia: 'Qui', hora: '20:30',
-        time1: 'Auckland City', gols1: '', artilheiros1: [],
-        time2: 'Benfica', gols2: '', artilheiros2: [] },
+        time1: 'Auckland City', gols1: '1', artilheiros1: [],
+        time2: 'Benfica', gols2: '1', artilheiros2: [] },
 
     { data: '03/05', dia: 'Sáb', hora: '17:00',
         time1: 'Auckland City', gols1: '', artilheiros1: [],
