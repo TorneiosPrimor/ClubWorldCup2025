@@ -44,11 +44,11 @@ const resultados = [
         time2: 'Porto', gols2: '3', artilheiros2: ['Eduardo', 'Clarito', 'Fabio'] },
 
     { data: '24/04', dia: 'Qui', hora: '19:30',
-        time1: 'Porto', gols1: '2', artilheiros1: [],
-        time2: 'Inter Miami', gols2: '4', artilheiros2: [] },
+        time1: 'Porto', gols1: '2', artilheiros1: ['Ceará', 'Orivaldo'],
+        time2: 'Inter Miami', gols2: '4', artilheiros2: ['Lindomar', 'João Marcos', 'João Miguel', 'João Miguel'] },
     { data: '24/04', dia: 'Qui', hora: '20:30',
-        time1: 'Auckland City', gols1: '1', artilheiros1: [],
-        time2: 'Benfica', gols2: '1', artilheiros2: [] },
+        time1: 'Auckland City', gols1: '1', artilheiros1: ['André'],
+        time2: 'Benfica', gols2: '1', artilheiros2: ['Victor Hugo'] },
 
     { data: '03/05', dia: 'Sáb', hora: '17:00',
         time1: 'Auckland City', gols1: '', artilheiros1: [],
@@ -84,9 +84,11 @@ const cartoes = [
     { jogador: "Hebert", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Gomes", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Victor", time: "Benfica", amarelos: 1, vermelhos: 0 },
+    { jogador: "Helton", time: "Benfica", amarelos: 1, vermelhos: 0 },
     
     { jogador: "Gabriel Jr", time: "Porto", amarelos: 1, vermelhos: 0 },
     { jogador: "Orivaldo", time: "Porto", amarelos: 1, vermelhos: 0 },
+    { jogador: "Thiago", time: "Porto", amarelos: 1, vermelhos: 0 },
     
     { jogador: "Paulo", time: "Auckland City", amarelos: 1, vermelhos: 0 },
     { jogador: "Ismael", time: "Auckland City", amarelos: 1, vermelhos: 0 },
@@ -105,8 +107,8 @@ const suspensoes = [
 const cartoesTimes = [
     { time: "Al Ahly", amarelos: 4, vermelhos: 1 },
     { time: "Inter Miami", amarelos: 3, vermelhos: 2 },
-    { time: "Benfica", amarelos: 4, vermelhos: 0 },
-    { time: "Porto", amarelos: 4, vermelhos: 1 },
+    { time: "Benfica", amarelos: 5, vermelhos: 0 },
+    { time: "Porto", amarelos: 5, vermelhos: 1 },
     { time: "Auckland City", amarelos: 9, vermelhos: 3 },
 ];
 
