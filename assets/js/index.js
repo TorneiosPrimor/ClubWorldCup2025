@@ -51,8 +51,8 @@ const resultados = [
         time2: 'Benfica', gols2: '1', artilheiros2: ['Victor Hugo'] },
 
     { data: '01/05', dia: 'Qui', hora: '08:00',
-        time1: 'Auckland City', gols1: '', artilheiros1: [],
-        time2: 'Inter Miami', gols2: '', artilheiros2: [] },
+        time1: 'Auckland City', gols1: '2', artilheiros1: ['Hudson', 'Pedro'],
+        time2: 'Inter Miami', gols2: '3', artilheiros2: ['Lindomar', 'João Miguel', 'João Miguel'] },
     { data: '03/05', dia: 'Sáb', hora: '18:00',
         time1: 'Al Ahly', gols1: '', artilheiros1: [],
         time2: 'Benfica', gols2: '', artilheiros2: [] },
