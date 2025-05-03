@@ -54,8 +54,8 @@ const resultados = [
         time1: 'Auckland City', gols1: '2', artilheiros1: ['Hudson', 'Pedro'],
         time2: 'Inter Miami', gols2: '3', artilheiros2: ['Lindomar', 'João Miguel', 'João Miguel'] },
     { data: '03/05', dia: 'Sáb', hora: '18:00',
-        time1: 'Al Ahly', gols1: '', artilheiros1: [],
-        time2: 'Benfica', gols2: '', artilheiros2: [] },
+        time1: 'Al Ahly', gols1: '2', artilheiros1: ['Macarrão', 'Macarrão'],
+        time2: 'Benfica', gols2: '2', artilheiros2: ['Helton', 'Helton'] },
 
     { data: '08/05', dia: 'Qui', hora: '19:30',
         time1: 'Al Ahly', gols1: '', artilheiros1: [],
@@ -76,8 +76,7 @@ const cartoes = [
     { jogador: "Mário", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Souza", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Macarrão", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
-    { jogador: "Marquinhos", time: "Al Ahly", amarelos: 1, vermelhos: 1 },
-    { jogador: "Nero", time: "Al Ahly", amarelos: 0, vermelhos: 1 },
+    { jogador: "Burguês", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     
     { jogador: "Hamilton", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Vitor Mello", time: "Benfica", amarelos: 1, vermelhos: 0 },
@@ -100,12 +99,12 @@ const cartoes = [
 ];
 
 const suspensoes = [
-    { jogador: "Nero", time: "Al Ahly", amarelos: 0, vermelhos: 1 },
-    { jogador: "Marquinhos", time: "Al Ahly", amarelos: 1, vermelhos: 1 }
+    // { jogador: "Nero", time: "Al Ahly", amarelos: 0, vermelhos: 1 },
+    // { jogador: "Marquinhos", time: "Al Ahly", amarelos: 1, vermelhos: 1 }
 ]
 
 const cartoesTimes = [
-    { time: "Al Ahly", amarelos: 4, vermelhos: 1 },
+    { time: "Al Ahly", amarelos: 5, vermelhos: 1 },
     { time: "Inter Miami", amarelos: 3, vermelhos: 2 },
     { time: "Benfica", amarelos: 5, vermelhos: 0 },
     { time: "Porto", amarelos: 5, vermelhos: 1 },
