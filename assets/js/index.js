@@ -61,7 +61,7 @@ const resultados = [
         time1: 'Al Ahly', gols1: '5', artilheiros1: ['GC', 'Alex', 'Macarrão', 'João', 'Macarrão'],
         time2: 'Inter Miami', gols2: '4', artilheiros2: ['João Marcos', 'Ewerton', 'João Marcos', 'Ewerton'] },
     { data: '08/05', dia: 'Qui', hora: '20:30',
-        time1: 'Auckland City', gols1: '2', artilheiros1: ['André', 'Hudson'],
+        time1: 'Auckland City', gols1: '3', artilheiros1: ['André', 'Hudson'],
         time2: 'Porto', gols2: '0', artilheiros2: [] },
 
     { data: '17/05', dia: 'Sáb', hora: '17:00',
