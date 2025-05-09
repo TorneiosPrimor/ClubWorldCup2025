@@ -86,7 +86,7 @@ const cartoes = [
     { jogador: "Helton", time: "Benfica", amarelos: 1, vermelhos: 0 },
     
     { jogador: "Gabriel Jr", time: "Porto", amarelos: 1, vermelhos: 0 },
-    { jogador: "Orivaldo", time: "Porto", amarelos: 1, vermelhos: 0 },
+    { jogador: "Orivaldo", time: "Porto", amarelos: 2, vermelhos: 0 },
     { jogador: "Thiago", time: "Porto", amarelos: 1, vermelhos: 0 },
     
     { jogador: "Paulo", time: "Auckland City", amarelos: 1, vermelhos: 0 },
@@ -107,7 +107,7 @@ const cartoesTimes = [
     { time: "Al Ahly", amarelos: 5, vermelhos: 1 },
     { time: "Inter Miami", amarelos: 3, vermelhos: 2 },
     { time: "Benfica", amarelos: 5, vermelhos: 0 },
-    { time: "Porto", amarelos: 5, vermelhos: 1 },
+    { time: "Porto", amarelos: 6, vermelhos: 1 },
     { time: "Auckland City", amarelos: 9, vermelhos: 3 },
 ];
 
