@@ -58,8 +58,8 @@ const resultados = [
         time2: 'Benfica', gols2: '2', artilheiros2: ['Helton', 'Helton'] },
 
     { data: '08/05', dia: 'Qui', hora: '19:30',
-        time1: 'Al Ahly', gols1: '1', artilheiros1: [],
-        time2: 'Inter Miami', gols2: '1', artilheiros2: [] },
+        time1: 'Al Ahly', gols1: '', artilheiros1: [],
+        time2: 'Inter Miami', gols2: '', artilheiros2: [] },
     { data: '08/05', dia: 'Qui', hora: '20:30',
         time1: 'Auckland City', gols1: '', artilheiros1: [],
         time2: 'Porto', gols2: '', artilheiros2: [] },
