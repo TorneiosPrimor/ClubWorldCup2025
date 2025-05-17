@@ -68,8 +68,8 @@ const resultados = [
         time1: 'Porto', gols1: '3', artilheiros1: ['Rene', 'Rene', 'Ceará'],
         time2: 'Benfica', gols2: '5', artilheiros2: ['Helton', 'Victor', 'Hamilton', 'Elizeu', 'Victor'] },
     { data: '17/05', dia: 'Sáb', hora: '18:00',
-        time1: 'Auckland City', gols1: '', artilheiros1: [],
-        time2: 'Al Ahly', gols2: '', artilheiros2: [] },
+        time1: 'Auckland City', gols1: '2', artilheiros1: ['André', 'E. Alencar'],
+        time2: 'Al Ahly', gols2: '1', artilheiros2: ['Macarrão'] },
 ];
 
 const cartoes = [
@@ -77,6 +77,7 @@ const cartoes = [
     { jogador: "Souza", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Macarrão", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Burguês", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
+    { jogador: "Nero", time: "Al Ahly", amarelos: 0, vermelhos: 1 },
     
     { jogador: "Hamilton", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Vitor Mello", time: "Benfica", amarelos: 1, vermelhos: 0 },
@@ -93,7 +94,7 @@ const cartoes = [
     { jogador: "Paulo", time: "Auckland City", amarelos: 1, vermelhos: 0 },
     { jogador: "Ismael", time: "Auckland City", amarelos: 1, vermelhos: 0 },
     { jogador: "Denilso", time: "Auckland City", amarelos: 1, vermelhos: 0 },
-    { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 0 },
+    { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 1 },
     
     { jogador: "Zainfe", time: "Inter Miami", amarelos: 1, vermelhos: 0 },
     { jogador: "João Miguel", time: "Inter Miami", amarelos: 1, vermelhos: 0 }
@@ -105,11 +106,11 @@ const suspensoes = [
 ]
 
 const cartoesTimes = [
-    { time: "Al Ahly", amarelos: 5, vermelhos: 1 },
+    { time: "Al Ahly", amarelos: 5, vermelhos: 2 },
     { time: "Inter Miami", amarelos: 3, vermelhos: 2 },
     { time: "Benfica", amarelos: 5, vermelhos: 0 },
     { time: "Porto", amarelos: 8, vermelhos: 1 },
-    { time: "Auckland City", amarelos: 9, vermelhos: 3 },
+    { time: "Auckland City", amarelos: 9, vermelhos: 4 },
 ];
 
 const eliminatorias = [
