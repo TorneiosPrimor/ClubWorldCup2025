@@ -283,9 +283,11 @@ th, td {
 }
 .imgRight{
     transform: translateX(.6rem);
+    padding: 2px;
 }
 .imgLeft{
     transform: translateX(-.6rem);
+    padding: 2px;
 }
 .losango svg path {
     fill: var(--color-3);
