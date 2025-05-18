@@ -114,10 +114,10 @@ const cartoesTimes = [
 ];
 
 const eliminatorias = [
-    { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '19:00',
+    { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '19:30',
         time1: 'Inter Miami', gols1: '', artilheiros1: [],
         time2: 'Al Ahly', gols2: '', artilheiros2: [] },
-    { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '20:00',
+    { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '20:30',
         time1: 'Auckland City', gols1: '', artilheiros1: [],
         time2: 'Benfica', gols2: '', artilheiros2: [] },
 
