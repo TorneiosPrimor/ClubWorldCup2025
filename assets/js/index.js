@@ -118,16 +118,16 @@ const eliminatorias = [
         time1: 'Inter Miami', gols1: '2', artilheiros1: ['João Miguel', 'Gustavo'],
         time2: 'Al Ahly', gols2: '3', artilheiros2: ['Burgues', 'Burgues', 'Alex'] },
     { fase: 'Semifinal', data: '22/05', dia: 'Qui', hora: '20:30',
-        time1: 'Auckland City', gols1: '', artilheiros1: [],
-        time2: 'Benfica', gols2: '', artilheiros2: [] },
+        time1: 'Auckland City', gols1: '3', artilheiros1: ['André', 'André', 'Pedro'],
+        time2: 'Benfica', gols2: '1', artilheiros2: ['Helton'] },
 
     { fase: 'Disputa 3º Lugar', data: '24/05', dia: 'Sáb', hora: '17:00',
-        time1: 'Perdedor SF', gols1: '', artilheiros1: [],
-        time2: 'Perdedor SF', gols2: '', artilheiros2: [] },
+        time1: 'Inter Miami', gols1: '', artilheiros1: [],
+        time2: 'Benfica', gols2: '', artilheiros2: [] },
 
     { fase: 'Final', data: '24/05', dia: 'Sáb', hora: '18:00',
-        time1: 'Vencedor SF', gols1: '', artilheiros1: [],
-        time2: 'Vencedor SF', gols2: '', artilheiros2: [] }
+        time1: 'Al Ahly', gols1: '', artilheiros1: [],
+        time2: 'Auckland City', gols2: '', artilheiros2: [] }
 ];
 
 // Filtra os jogos que ainda não têm resultado (gols1 e gols2 vazios)
