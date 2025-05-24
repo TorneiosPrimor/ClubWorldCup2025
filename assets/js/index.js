@@ -77,7 +77,6 @@ const cartoes = [
     { jogador: "Souza", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Macarrão", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Burguês", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
-    { jogador: "Nero", time: "Al Ahly", amarelos: 0, vermelhos: 1 },
     
     { jogador: "Hamilton", time: "Benfica", amarelos: 1, vermelhos: 0 },
     { jogador: "Vitor Mello", time: "Benfica", amarelos: 1, vermelhos: 0 },
@@ -93,8 +92,8 @@ const cartoes = [
     
     { jogador: "Paulo", time: "Auckland City", amarelos: 1, vermelhos: 0 },
     { jogador: "Ismael", time: "Auckland City", amarelos: 1, vermelhos: 0 },
-    { jogador: "Denilso", time: "Auckland City", amarelos: 1, vermelhos: 0 },
-    { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 1 },
+    { jogador: "Denilso", time: "Auckland City", amarelos: 1, vermelhos: 0 },,
+    { jogador: "David", time: "Auckland City", amarelos: 1, vermelhos: 0 },
     
     { jogador: "Zainfe", time: "Inter Miami", amarelos: 1, vermelhos: 0 },
     { jogador: "João Miguel", time: "Inter Miami", amarelos: 1, vermelhos: 0 },
@@ -111,7 +110,7 @@ const cartoesTimes = [
     { time: "Inter Miami", amarelos: 4, vermelhos: 2 },
     { time: "Benfica", amarelos: 6, vermelhos: 0 },
     { time: "Porto", amarelos: 8, vermelhos: 1 },
-    { time: "Auckland City", amarelos: 9, vermelhos: 4 },
+    { time: "Auckland City", amarelos: 10, vermelhos: 4 },
 ];
 
 const eliminatorias = [
