@@ -280,7 +280,7 @@ th, td {
     height: 1rem;
     width: auto;
     transform: scale(2.8);
-    /* padding: .05rem; */
+    padding: .02rem;
 }
 .imgRight{
     transform: translateX(.6rem);
