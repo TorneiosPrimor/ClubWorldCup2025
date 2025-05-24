@@ -127,8 +127,8 @@ const eliminatorias = [
         time2: 'Benfica', gols2: '3', artilheiros2: ['Hebert', 'Victor Hugo', 'Guilherme'] },
 
     { fase: 'Final', data: '24/05', dia: 'Sáb', hora: '18:00',
-        time1: 'Al Ahly', gols1: '', artilheiros1: [],
-        time2: 'Auckland City', gols2: '', artilheiros2: [] }
+        time1: 'Al Ahly', gols1: '2', artilheiros1: ['Burguês', 'Macarrão'],
+        time2: 'Auckland City', gols2: '1', artilheiros2: ['Pedro'] }
 ];
 
 // Filtra os jogos que ainda não têm resultado (gols1 e gols2 vazios)
