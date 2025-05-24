@@ -73,7 +73,7 @@ const resultados = [
 ];
 
 const cartoes = [
-    { jogador: "Mário", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
+    { jogador: "Mário", time: "Al Ahly", amarelos: 2, vermelhos: 0 },
     { jogador: "Souza", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Macarrão", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
     { jogador: "Burguês", time: "Al Ahly", amarelos: 1, vermelhos: 0 },
@@ -97,17 +97,18 @@ const cartoes = [
     { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 1 },
     
     { jogador: "Zainfe", time: "Inter Miami", amarelos: 1, vermelhos: 0 },
-    { jogador: "João Miguel", time: "Inter Miami", amarelos: 1, vermelhos: 0 }
+    { jogador: "João Miguel", time: "Inter Miami", amarelos: 1, vermelhos: 0 },
+    { jogador: "Ewerton", time: "Inter Miami", amarelos: 1, vermelhos: 0 }
 ];
 
 const suspensoes = [
-    { jogador: "Nero", time: "Al Ahly", amarelos: 0, vermelhos: 1 },
-    { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 1 }
+    // { jogador: "Nero", time: "Al Ahly", amarelos: 0, vermelhos: 1 },
+    // { jogador: "Hudson", time: "Auckland City", amarelos: 1, vermelhos: 1 }
 ]
 
 const cartoesTimes = [
-    { time: "Al Ahly", amarelos: 5, vermelhos: 2 },
-    { time: "Inter Miami", amarelos: 3, vermelhos: 2 },
+    { time: "Al Ahly", amarelos: 6, vermelhos: 2 },
+    { time: "Inter Miami", amarelos: 4, vermelhos: 2 },
     { time: "Benfica", amarelos: 6, vermelhos: 0 },
     { time: "Porto", amarelos: 8, vermelhos: 1 },
     { time: "Auckland City", amarelos: 9, vermelhos: 4 },
