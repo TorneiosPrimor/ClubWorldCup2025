@@ -123,8 +123,8 @@ const eliminatorias = [
         time2: 'Benfica', gols2: '1', artilheiros2: ['Helton'] },
 
     { fase: 'Disputa 3º Lugar', data: '24/05', dia: 'Sáb', hora: '17:00',
-        time1: 'Inter Miami', gols1: '', artilheiros1: [],
-        time2: 'Benfica', gols2: '', artilheiros2: [] },
+        time1: 'Inter Miami', gols1: '5', artilheiros1: ['Ewerton', 'Ewerton', 'Ewerton', 'Ewerton', 'Lindomar'],
+        time2: 'Benfica', gols2: '3', artilheiros2: ['Hebert', 'Victor Hugo', 'Guilherme'] },
 
     { fase: 'Final', data: '24/05', dia: 'Sáb', hora: '18:00',
         time1: 'Al Ahly', gols1: '', artilheiros1: [],
